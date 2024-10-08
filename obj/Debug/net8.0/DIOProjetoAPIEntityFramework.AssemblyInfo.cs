@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DIOProjetoAPIEntityFramework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27720a94643341f7f0054bef3684a50eda55159b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49be50767c3e0de4176a5f787f6e787ade91435e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DIOProjetoAPIEntityFramework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DIOProjetoAPIEntityFramework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

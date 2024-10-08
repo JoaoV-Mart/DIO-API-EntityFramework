@@ -8,9 +8,9 @@ namespace DioProjetoAPIEntityFramework.Controllers
     [Route("[controller]")]
     public class TarefaController : ControllerBase
     {
-        private readonly Context _context;
+        private readonly OrganizadorContext _context;
 
-        public TarefaController(Context context)
+        public TarefaController(OrganizadorContext context)
         {
             _context = context;
         }
