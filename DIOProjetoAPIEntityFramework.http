@@ -1,0 +1,6 @@
+@DIOProjetoAPIEntityFramework_HostAddress = http://localhost:5066
+
+GET {{DIOProjetoAPIEntityFramework_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
