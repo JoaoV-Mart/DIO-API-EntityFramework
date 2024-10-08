@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using DioProjetoAPIEntityFramework.Models;
 
-namespace TrilhaApiDesafio.Context
+namespace DioProjetoAPIEntityFramework.Context
 {
     public class Context : DbContext
     {
