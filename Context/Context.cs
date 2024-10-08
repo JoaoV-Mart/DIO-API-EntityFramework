@@ -5,6 +5,6 @@ namespace DioProjetoAPIEntityFramework.Context
 {
     public class OrganizadorContext(DbContextOptions<OrganizadorContext> options) : DbContext(options)
     {
-        public DbSet<Tarefa>? Tarefas { get; set; }
+        public DbSet<Tarefa> Tarefas { get; set; }
     }
 }
