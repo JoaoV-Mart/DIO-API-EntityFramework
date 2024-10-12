@@ -39,7 +39,7 @@ namespace DioProjetoAPIEntityFramework.Controllers
         public IActionResult ObterPorTitulo(string titulo)
         {
 
-		var titulo = _context.Tarefas.Find(Titulo);
+		//var titulo = _context.Tarefas.Find(Titulo);
 		var tarefa = _context.Tarefas.Where(x => x.Titulo == titulo);
 
             return Ok(tarefa);
@@ -55,7 +55,7 @@ namespace DioProjetoAPIEntityFramework.Controllers
         [HttpGet("ObterPorStatus")]
         public IActionResult ObterPorStatus(EnumStatusTarefa status)
         {
-            var status = _context.Tarefas.Find(Status);
+            //var status = _context.Tarefas.Find(Status);
             var tarefa = _context.Tarefas.Where(x => x.Status == status);
             return Ok(tarefa);
         }
@@ -102,7 +102,7 @@ namespace DioProjetoAPIEntityFramework.Controllers
             if (tarefaBanco == null)
                 return NotFound();
 
- 		_context.Tarefas.Delete(tarefaBanco);           
+ 		_context.Tarefas.Remove(tarefaBanco);           
 
             return NoContent();
         }
