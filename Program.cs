@@ -32,13 +32,3 @@ app.MapControllers();
 
 app.Run();
 
-//se der o erro de caminho -> export PATH="$PATH:$HOME/.dotnet/tools"
-
-/*Para instalar o pacote do sql -> wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
-*sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/22.04/mssql-server-2022.list)"
-*sudo apt-get update
-*/
-
-//Para instalar o sql -> sudo apt-get install -y mssql-server
-
-//Para configurar o sql -> sudo /opt/mssql/bin/mssql-conf setup
